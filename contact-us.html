@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us | Eric Travel Site</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.jpg" alt="logo" style="width:40px;">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Links -->
+ <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about-us.html">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact-us.html">Contact Us</a>
+    </li>
+  </ul>
+
+  <div style="margin-left: auto;">
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark" align="left"> 
+     <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+   < </nav> 
+   </div>
+
+<div style="margin-left: relative;">
+  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+    <span class="glyphicon glyphicon-log-in"></span> Log in
+  </button>
+</div>
+
+</nav>
+
+<!-- NAVIGATION BAR -->
+
+<div class="jumbotron jumbotron-fluid" style="margin-bottom: 0rem;">
+  <div class="container">
+    <h1>Siquijor's Escapade</h1>      
+    <p>Our travel documentation in Siquijor</p>
+  </div>
+</div>
+<body>
+<div class="container">
+  <div class="row">
+      <div class="col-md-12 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Contact us</legend>
+    
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-12">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+              <div class="col-md-12">
+                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+              <div class="col-md-12">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+
+</body>
+<div class="footer">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+
+  <!-- COPYRIGHT -->
+    <div style="margin-left: auto;margin-top: 20px;">
+        <p style="color: white">&copy; 2018 All rights reserved, Eric's Site </p>    
+    </div>
+  <!-- COPYRIGHT -->
+
+  </nav>
+</div>
+</html>
